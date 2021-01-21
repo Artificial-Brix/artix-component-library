@@ -1,0 +1,35 @@
+{
+  "name": "artix",
+  "version": "1.0.0",
+  "description": "A React Component Library(OPEN SOURCED)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "styleguidist server"
+  },
+  "author": "Pratik Dey",
+  "license": "MIT",
+  "peerDependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@emotion/babel-plugin": "^11.1.2",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-styleguidist": "^11.1.5",
+    "webpack": "^5.15.0"
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
