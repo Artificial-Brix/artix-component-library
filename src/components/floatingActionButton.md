@@ -5,5 +5,5 @@ Pass css properties as props to customise the button and adjust position.
 import FloatActionButton from "./floatingActionButton";
 import AddIcon from '../assets/addIcon.js';
 
-<FloatActionButton> <AddIcon/> </FloatActionButton>;
+<FloatActionButton height="40px" width="40px"> <AddIcon/> </FloatActionButton>;
 ```
