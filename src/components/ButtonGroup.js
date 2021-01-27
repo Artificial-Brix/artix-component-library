@@ -25,15 +25,13 @@ const Wrapper = styled.div`
   display: flex;
   width: max-content;
   z-index: 9;
+  Button {
+    color: ${(props) => (props.color ? props.color : "#05385b")};
+  }
 `;
 
 export default function ButtonGroup(props) {
-  console.log(props);
-  return (
-    <Wrapper {...props}>
-      {props.buttons.map((text, i) => {
-        return <Button {...props}>{text}</Button>;
-      })}
-    </Wrapper>
-  );
+  return <Wrapper {...props}>{props.children}</Wrapper>;
 }
+
+export { Button };

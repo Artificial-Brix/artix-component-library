@@ -1,15 +1,23 @@
 A basic Group button
 
 ```jsx
-import ButtonGroup from "./ButtonGroup";
+import ButtonGroup, { Button } from "./ButtonGroup";
 
-<ButtonGroup buttons={["Ironman", "Thor", "Batman"]} />;
+<ButtonGroup>
+  <Button>Ironman</Button>
+  <Button>Hulk</Button>
+  <Button>Batman</Button>
+</ButtonGroup>;
 ```
 
-using custom props
+passing props to ButtonGroup
 
 ```jsx
-import ButtonGroup from "./ButtonGroup";
+import ButtonGroup, { Button } from "./ButtonGroup";
 
-<ButtonGroup buttons={["Ironman", "Thor", "Batman"]} background="#334c66" color="#ffffff" borderRadius="0.8rem" />;
+<ButtonGroup background="#334c66" color="#ffffff" borderRadius="0.8rem">
+  <Button>Ironman</Button>
+  <Button>Hulk</Button>
+  <Button>Batman</Button>
+</ButtonGroup>;
 ```
