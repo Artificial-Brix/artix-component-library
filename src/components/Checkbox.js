@@ -27,12 +27,12 @@ const HiddenCheckbox = withProps({ type: "checkbox" })(styled("input")`
   width: 1px;
 `);
 
-const StyledCheckbox = withProps({ type: "checkbox" })(styled("input")`
+const StyledCheckbox = styled.div`
   background-color: ${({ checked }) => (checked ? "salmon" : "papayawhip")};
   ${Icon} {
     visibility: ${(props) => (props.checked ? "visible" : "hidden")};
   }
-`);
+`;
 
 const StyledLabel = styled.label`
   ${font}
@@ -46,7 +46,7 @@ export default function Checkbox({ text }) {
 
   return (
     <CheckboxContainer>
-      <HiddenCheckbox checked={checked} />
+      <HiddenCheckbox checked={checked} onChange={handleCheckboxChange} />
       <StyledLabel>
         <StyledCheckbox checked={checked} onChange={handleCheckboxChange}>
           <Icon viewBox="0 0 24 25">
