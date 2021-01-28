@@ -30,6 +30,7 @@
     "webpack": "^5.15.0"
   },
   "dependencies": {
-    "babel-plugin-module-resolver": "^4.1.0"
+    "babel-plugin-module-resolver": "^4.1.0",
+    "recompose": "^0.30.0"
   }
 }
