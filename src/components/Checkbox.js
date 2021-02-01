@@ -28,14 +28,24 @@ const HiddenCheckbox = withProps({ type: "checkbox" })(styled("input")`
 `);
 
 const StyledCheckbox = styled.div`
-  background-color: ${({ checked }) => (checked ? "salmon" : "papayawhip")};
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: ${(props) => (props.checked ? "#05385b" : "#5cdb95")};
+  border-radius: 3px;
+  transition: all 150ms;
   ${Icon} {
     visibility: ${(props) => (props.checked ? "visible" : "hidden")};
   }
 `;
 
 const StyledLabel = styled.label`
-  ${font}
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  span {
+    padding-left: 0.5rem;
+  }
 `;
 export default function Checkbox({ text }) {
   const [checked, setChecked] = useState(false);
@@ -46,9 +56,9 @@ export default function Checkbox({ text }) {
 
   return (
     <CheckboxContainer>
-      <HiddenCheckbox checked={checked} onChange={handleCheckboxChange} />
       <StyledLabel>
-        <StyledCheckbox checked={checked} onChange={handleCheckboxChange}>
+        <HiddenCheckbox checked={checked} onChange={handleCheckboxChange} />
+        <StyledCheckbox checked={checked}>
           <Icon viewBox="0 0 24 25">
             <polyline points="20 6 9 17 4 12" />
           </Icon>
