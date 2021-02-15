@@ -40,6 +40,8 @@ const Options = styled.div`
   border-color: #394a6d;
   display: "block";
   transition: all 0.5s;
+  overflow: auto;
+  max-height: 60vh;
 `;
 
 const Option = styled.div`
