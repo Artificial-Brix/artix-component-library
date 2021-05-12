@@ -4,6 +4,37 @@
 
 **Artix-component-libraries** are **open source**, **interactive building blocks** for creating a user interface. Browse all components or select a specific platform. It has ready made UI Components like **Buttons**, **Cards**, **Inputs**, **Lists**, and _so on_. They can arrange different UI Components in many different ways to achieve unique effects.
 
+> ## Installation
+
+### Clone repository:
+
+```sh
+git clone https://github.com/Artificial-Brix/artix-component-library.git
+```
+
+### Change directory:
+
+```sh
+cd artix-component-library
+```
+
+### Install dependency:
+
+```sh
+yarn
+```
+
+### Run project:
+
+```sh
+yarn start
+```
+
+### Runs the app in the development mode.
+
+Open [http://localhost:6060](http://localhost:6060) to view it in the browser.\
+Open [http://192.168.0.105:6060/](http://192.168.0.105:6060/) on your network:
+
 > ## Our Purpose
 
 The Purpose of Artix component Library is to give an exquisite React execution of the **Artix component** that can be altered to completely coordinate with your image.
