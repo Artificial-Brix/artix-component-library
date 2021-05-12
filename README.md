@@ -2,6 +2,26 @@
 
 # **Artix-component-library**
 
+> ## Installing Process
+
+### Clone repository:
+
+```sh
+git clone https://github.com/Artificial-Brix/artix-component-library.git
+```
+
+### Change directory:
+
+```sh
+cd artix-component-library
+```
+
+### Run project on development mode:
+
+```sh
+yarn start
+```
+
 **Artix-component-libraries** are **open source**, **interactive building blocks** for creating a user interface. Browse all components or select a specific platform. It has ready made UI Components like **Buttons**, **Cards**, **Inputs**, **Lists**, and _so on_. They can arrange different UI Components in many different ways to achieve unique effects.
 
 > ## Our Purpose
