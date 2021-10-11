@@ -40,11 +40,6 @@ yarn start
 Open [http://localhost:6060](http://localhost:6060) to view it in the browser.\
 Open [http://192.168.0.105:6060/](http://192.168.0.105:6060/) on your network:
 
-> ## Usage
-
-<img alt="sample_site_image" height="100"/>
-You can browse all the components on the main screen or search for a specific platform from the items on the left toolbar. You can find them quickly and easily, to implement your desired effect.
-
 > ## Our Purpose
 
 The Purpose of Artix component Library is to give an exquisite React execution of the **Artix component** that can be altered to completely coordinate with your image.
