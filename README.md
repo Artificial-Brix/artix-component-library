@@ -4,8 +4,6 @@
 
 **Artix-component-libraries** are **open source**, **interactive building blocks** for creating a user interface. Browse all components or select a specific platform. It has ready made UI Components like **Buttons**, **Cards**, **Inputs**, **Lists**, and _so on_. They can arrange different UI Components in many different ways to achieve unique effects.
 
-## Getting started
-
 > ## Installation
 
 ### Clone repository:
@@ -23,10 +21,12 @@ cd artix-component-library
 ### Install dependency:
 
 ```sh
-npm install yarn -g
-```
-```sh
 yarn
+```
+### If you didn't install yarn
+
+```sh
+npm install yarn -g
 ```
 
 ### Run project:
@@ -55,4 +55,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 Thank you for investing your time in contributing to our project!<br>
 Your contribution will invigorate this wonderful open source community and create even better ones. Your contribution is greatly welcomed!<br>
 For details on contributing to this repository, see the [contributing guide](CONTRIBUTING.md).
-

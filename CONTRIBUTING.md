@@ -1,3 +1,5 @@
+## Contributing to Artix-component-library
+
 **Our project welcomes contributions and suggestions!**<br>
 **Your contribution will invigorate this wonderful open source community and create even better ones.**
 
