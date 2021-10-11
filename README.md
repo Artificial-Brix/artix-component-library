@@ -54,5 +54,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 Thank you for investing your time in contributing to our project!<br>
 Your contribution will invigorate this wonderful open source community and create even better ones. Your contribution is greatly welcomed!<br>
-For details on contributing to this repository, see the [contributing guide]().
+For details on contributing to this repository, see the [contributing guide](CONTRIBUTING.md).
 
