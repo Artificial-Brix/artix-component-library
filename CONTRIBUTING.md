@@ -14,6 +14,6 @@
 - Add changed files (git add fileName)
 - Commit your changes (git commit -m 'Add GreatFeature')
 - Push to the branch (git push origin issueNumber)
-- Open a Pull Request
+- Open a Pull Request (PR should be directed to "main" branch)
 
 We will review your Pull Request and get back to you!
