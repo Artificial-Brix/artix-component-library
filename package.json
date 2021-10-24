@@ -1,13 +1,13 @@
 {
   "name": "artix",
-  "version": "1.0.0",
-  "description": "A React Component Library(OPEN SOURCED)",
+  "version": "0.1.0",
+  "description": "An Open Source React Component Library",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "styleguidist server"
   },
-  "author": "Pratik Dey",
+  "author": "Artificial Brix",
   "license": "MIT",
   "peerDependencies": {
     "@emotion/core": "^11.0.0",
