@@ -41,6 +41,11 @@
     "react-transition-group": "^4.4.1",
     "recompose": "^0.30.0"
   },
+  "paths": {
+    "@config/*": "./src/config/*",
+    "@components/*": "./src/components/*",
+    "@assets/*": "./src/assets/*"
+  },
   "exports": {
     ".": "./src/components"
   }
