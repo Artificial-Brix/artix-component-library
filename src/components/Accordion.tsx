@@ -8,7 +8,7 @@ type AccordionData ={
   question:string;
   answer:string;
 }
-export const Accordion: React.FC<Props>= ({ data }) => {
+export const Accordion: React.FC<Props> = ({ data }) => {
   const [show, setShow] = useState(null);
 
   const handlerOnClick = (index:any) => {
