@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "styleguidist server"
+    "start": "styleguidist server --config styleguide.config.js --verbose"
   },
   "author": "Artificial Brix",
   "license": "MIT",
@@ -29,7 +29,6 @@
     "webpack": "^5.15.0"
   },
   "dependencies": {
-    "typescript": "^4.4.4",
     "@babel/cli": "^7.12.10",
     "@types/node": "^16.11.1",
     "@types/react": "^17.0.30",
@@ -37,9 +36,12 @@
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-module-resolver": "^4.1.0",
     "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.1",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "typescript": "^4.4.4"
   },
   "paths": {
     "@config/*": "./src/config/*",
