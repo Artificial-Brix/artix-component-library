@@ -2,7 +2,36 @@
 
 # **Artix-component-library**
 
-**Artix-component-libraries** are **open source**, **interactive building blocks** for creating a user interface. Browse all components or select a specific platform. It has ready made UI Components like **Buttons**, **Cards**, **Inputs**, **Lists**, and _so on_. They can arrange different UI Components in many different ways to achieve unique effects.
+**Artix-component-libraries** are **open source**, **interactive building blocks** for creating a user interface. Browse all components or select a specific platform. It has ready made UI Components. They can arrange different UI Components in many different ways to achieve unique effects.
+
+## UI Components are: 
+- Accordion
+- AppBar
+- Avatar
+- Backdrop
+- Badge
+- Breadcrumbs
+- Button
+- ButtonGroup
+- Card
+- CheckBox
+- CheckboxTransferList
+- Chip
+- DateTimePicker
+- Dialog
+- FloatingActionButton
+- List
+- Menu
+- Paper
+- Progress
+- RadioButton
+- Rage
+- Select
+- SnackBar
+- Stepper
+- Switch
+- TextField
+- TransferList
 
 > ## Installation
 
