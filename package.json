@@ -4,8 +4,7 @@
   "description": "An Open Source React Component Library",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "styleguidist server --config styleguide.config.js --verbose"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Artificial Brix",
   "license": "MIT",
