@@ -47,12 +47,18 @@ git clone https://github.com/Artificial-Brix/artix-component-library.git
 cd artix-component-library
 ```
 
-### Install dependency:
+### Install dependencies:
 
 ```sh
 yarn
 ```
-### If you didn't install yarn
+
+or 
+```sh
+npm i
+```
+
+<!-- ### If you didn't install yarn
 
 ```sh
 npm install yarn -g
@@ -62,12 +68,12 @@ npm install yarn -g
 
 ```sh
 yarn start
-```
-
+``` -->
+<!-- 
 ### Runs the app in the development mode.
 
 Open [http://localhost:6060](http://localhost:6060) to view it in the browser.\
-Open [http://192.168.0.105:6060/](http://192.168.0.105:6060/) on your network:
+Open [http://192.168.0.105:6060/](http://192.168.0.105:6060/) on your network: -->
 
 > ## Our Purpose
 

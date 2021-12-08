@@ -1,13 +1,12 @@
 {
   "name": "artix",
-  "version": "1.0.0",
-  "description": "A React Component Library(OPEN SOURCED)",
-  "main": "app.js",
+  "version": "0.1.0",
+  "description": "An Open Source React Component Library",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "styleguidist server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pratik Dey",
+  "author": "Artificial Brix",
   "license": "MIT",
   "peerDependencies": {
     "@emotion/core": "^11.0.0",
@@ -25,13 +24,11 @@
     "@emotion/styled": "^11.0.0",
     "@tsconfig/node12": "^1.0.9",
     "babel-loader": "^8.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "react-styleguidist": "^11.1.5",
+    "typescript": "^4.4.4",
     "webpack": "^5.15.0"
   },
   "dependencies": {
-    "typescript": "^4.4.4",
     "@babel/cli": "^7.12.10",
     "@types/node": "^16.11.1",
     "@types/react": "^17.0.30",
@@ -39,8 +36,19 @@
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-module-resolver": "^4.1.0",
     "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-transition-group": "^4.4.1",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "typescript": "^4.4.4"
+  },
+  "paths": {
+    "@config/*": "./src/config/*",
+    "@components/*": "./src/components/*",
+    "@assets/*": "./src/assets/*"
+  },
+  "exports": {
+    ".": "./src/components"
   }
 }

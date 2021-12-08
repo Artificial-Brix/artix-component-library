@@ -1,6 +1,13 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { font, primaryColors, shape } from "/config/styles";
+
+type Props = {
+  children?: React.ReactNode;
+  background?: string;
+  bottom?: string;
+  color?: string;
+  val: string;
+}
 
 const Wrapper = styled.div`
   position: relative;
@@ -8,10 +15,10 @@ const Wrapper = styled.div`
   width: max-content;
   .badge {
     position: absolute;
-    ${(props) => (props.bottom ? "top:0" : "bottom: 0")};
+    ${(props: Props) => (props.bottom ? "top:0" : "bottom: 0")};
     right: 0;
-    color: ${(props) => (props.color ? props.color : "white")};
-    background: ${(props) => (props.background ? props.background : "red")};
+    color: ${(props: Props) => (props.color ? props.color : "white")};
+    background: ${(props: Props) => (props.background ? props.background : "red")};
     z-index: 9;
     height: 1rem;
     width: 1rem;
@@ -30,7 +37,7 @@ const Square = styled.div`
   position: relative;
 `;
 
-export default function Badge(props) {
+export const Badge: React.FC<Props> = (props) => {
   return (
     <Wrapper {...props}>
       <p className="badge">{props.val}</p>

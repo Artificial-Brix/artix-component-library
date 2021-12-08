@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/react";
 
-import { font } from "/config/styles";
+import { font } from "@config/styles";
 
 const BackdropStyles = styled.div`
   position: fixed;

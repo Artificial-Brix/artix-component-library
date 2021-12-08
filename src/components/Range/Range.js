@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import { font } from "/config/styles";
+import { font } from "../config/styles";
 
 const Title = styled.h2`
   ${font}

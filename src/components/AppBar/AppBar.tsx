@@ -1,6 +1,11 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { font, primaryColors, shape } from "/config/styles";
+
+type Prop = {
+  backgroundColor?: string;
+  color?: string;
+  children?: string;
+}
 
 const Wrapper = styled.div`
   position: relative;
@@ -8,12 +13,12 @@ const Wrapper = styled.div`
   left: 0;
   width: 100%;
   height: 4rem;
-  background-color: ${(props) =>
+  background-color: ${(props: Prop) =>
     props.backgroundColor ? props.backgroundColor : "#5cdb95"};
   display: flex;
   align-items: center;
   Button {
-    color: ${(props) => (props.color ? props.color : "#05385b")};
+    color: ${(props: Prop) => (props.color ? props.color : "#05385b")};
   }
 `;
 
@@ -29,8 +34,7 @@ const Button = styled.button`
   }
 `;
 
-export const AppBar: React.FC<props> = (props) => {
+export const AppBar: React.FC<Prop> = (props) => {
   return <Wrapper {...props}>{props.children}</Wrapper>;
 }
 
-export { Button };

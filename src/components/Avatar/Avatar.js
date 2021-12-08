@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import React from "react";
 
 const ImageWrapper = styled.img`
   border-radius: 50%;
