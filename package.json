@@ -2,7 +2,7 @@
   "name": "artix",
   "version": "0.1.0",
   "description": "An Open Source React Component Library",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
